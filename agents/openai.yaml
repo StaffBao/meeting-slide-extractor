@@ -1,0 +1,7 @@
+interface:
+  display_name: "Meeting Slide Extractor / 会议视频转幻灯片"
+  short_description: "提取会议幻灯片，对齐讲稿并生成 PPT、HTML 与逐字稿"
+  default_prompt: "Use $meeting-slide-extractor to extract clean slides from this video and produce the three standard deliverables."
+
+policy:
+  allow_implicit_invocation: true
